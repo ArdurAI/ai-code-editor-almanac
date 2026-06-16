@@ -14,6 +14,11 @@ A living encyclopedia of AI code editors, IDE assistants, and terminal coding ag
 | Architecture diagrams | `architecture.md` |
 | Benchmark results (rolling) | `benchmarks/` |
 | How tools are tested and ranked | `methodology/benchmark-harness.md` |
+| Project intent & philosophy | `INTENT.md` |
+| Implementation guide & how to add tools | `IMPLEMENTATION.md` |
+| Testing methodology & benchmarks | `TESTING.md` |
+| Troubleshooting & debugging | `TROUBLESHOOTING.md` |
+| How to contribute | `CONTRIBUTING.md` |
 
 ## The roster
 
