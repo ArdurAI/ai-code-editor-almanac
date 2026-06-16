@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "name": "Code Editors & IDE Assistants Almanac Roster",
+    "version": "2026-06",
+    "generated_at": "2026-06-16T22:46:00Z",
+    "total_tools": 63,
+    "parent_almanac": "ArdurAI/ai-infrastructure-almanac",
+    "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents"
+  },
+  "category": "code-editors",
+  "category_name": "Code Editors & IDE Assistants",
+  "tools": [
+    {
+      "name": "Cursor",
+      "type": "AI-native IDE",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "A",
+      "notes": "VS Code fork; market leader; $20-200/mo"
+    },
+    {
+      "name": "GitHub Copilot",
+      "type": "IDE assistant",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "A",
+      "notes": "Widest adoption; usage-based credits from June 2026"
+    },
+    {
+      "name": "Claude Code",
+      "type": "CLI agent",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "A",
+      "notes": "~$2.5B ARR; 1M context; Agent Teams; SWE-bench 82%"
+    },
+    {
+      "name": "Windsurf",
+      "type": "AI-native IDE",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "A",
+      "notes": "Formerly Codeium; acquired by Cognition Dec 2025"
+    },
+    {
+      "name": "OpenCode",
+      "type": "Terminal TUI",
+      "license": "MIT",
+      "region": "Global",
+      "tier": "A",
+      "notes": "150K+ stars; 75+ LLM providers; Go-based"
+    },
+    {
+      "name": "Cline",
+      "type": "VS Code + CLI",
+      "license": "Apache-2.0",
+      "region": "Global",
+      "tier": "A",
+      "notes": "5M+ installs; native subagents; BYOK; browser automation"
+    },
+    {
+      "name": "Aider",
+      "type": "Terminal pair-programmer",
+      "license": "MIT",
+      "region": "Global",
+      "tier": "A",
+      "notes": "42K+ stars; Git-aware diffs; model-agnostic"
+    },
+    {
+      "name": "Continue",
+      "type": "IDE extension",
+      "license": "Apache-2.0",
+      "region": "Global",
+      "tier": "A",
+      "notes": "20K+ stars; BYOK; code review; CI-enforceable checks"
+    },
+    {
+      "name": "Zed",
+      "type": "Rust-native editor",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "A",
+      "notes": "Multi-provider chat; real-time collab; GPU-accelerated"
+    },
+    {
+      "name": "Trae",
+      "type": "AI IDE",
+      "license": "Proprietary",
+      "region": "China",
+      "tier": "A",
+      "notes": "ByteDance; free; VS Code fork; 95% WeChat SDK accuracy"
+    },
+    {
+      "name": "Tabnine",
+      "type": "Completion + chat",
+      "license": "Proprietary",
+      "region": "Israel/US",
+      "tier": "A",
+      "notes": "1M+ devs; on-prem; zero data retention; SOC 2/GDPR"
+    },
+    {
+      "name": "Codex CLI",
+      "type": "CLI agent",
+      "license": "Apache-2.0",
+      "region": "US",
+      "tier": "A",
+      "notes": "OpenAI; Rust-native; 240+ tok/s; included in ChatGPT"
+    },
+    {
+      "name": "Gemini CLI",
+      "type": "CLI agent",
+      "license": "Apache-2.0",
+      "region": "US",
+      "tier": "A",
+      "notes": "1M token context; 1,000 req/day free; full open source"
+    },
+    {
+      "name": "Kimi CLI",
+      "type": "Terminal agent",
+      "license": "Open source",
+      "region": "China",
+      "tier": "A",
+      "notes": "Moonshot; Agent Swarm up to 300 sub-agents; K2.6"
+    },
+    {
+      "name": "Devin",
+      "type": "Autonomous SWE",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "A",
+      "notes": "Cognition; full VM; Slack-native; $20/mo entry + ACUs"
+    },
+    {
+      "name": "OpenHands",
+      "type": "Autonomous agent",
+      "license": "MIT",
+      "region": "Global",
+      "tier": "A",
+      "notes": "70K+ stars; formerly OpenDevin; Docker sandboxed"
+    },
+    {
+      "name": "CodeRabbit",
+      "type": "AI code review",
+      "license": "Proprietary",
+      "region": "Global",
+      "tier": "A",
+      "notes": "$550M valuation; 8,000+ customers; line-by-line feedback"
+    },
+    {
+      "name": "Supermaven",
+      "type": "Completion engine",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "B",
+      "notes": "Acquired by Cursor; fast long-context completions"
+    },
+    {
+      "name": "Cody",
+      "type": "Codebase assistant",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "B",
+      "notes": "Sourcegraph; large codebase context; $9-19/mo"
+    },
+    {
+      "name": "Amazon Q Developer",
+      "type": "IDE + CLI",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "B",
+      "notes": "AWS ecosystem; formerly CodeWhisperer; 60 free tasks/mo"
+    },
+    {
+      "name": "JetBrains Junie",
+      "type": "IDE agent",
+      "license": "Proprietary",
+      "region": "Czechia",
+      "tier": "B",
+      "notes": "Multi-agent support; BYOK; AI Pro $10/mo"
+    },
+    {
+      "name": "Replit Agent",
+      "type": "Cloud app builder",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "B",
+      "notes": "Full-stack from prompt; deploy in one click; $20-90/mo"
+    },
+    {
+      "name": "Kilo Code",
+      "type": "Multi-platform agent",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "B",
+      "notes": "500+ models; Architect/Code/Debug modes"
+    },
+    {
+      "name": "Roo Code",
+      "type": "VS Code extension",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "B",
+      "notes": "Cline fork; multi-mode agent loop; community-driven"
+    },
+    {
+      "name": "Tabby",
+      "type": "Self-hosted completion",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "B",
+      "notes": "Kubernetes deploy; server-side index; RAG; StarCoder"
+    },
+    {
+      "name": "通义灵码",
+      "type": "IDE plugin",
+      "license": "Proprietary",
+      "region": "China",
+      "tier": "B",
+      "notes": "Alibaba; database-aware; 200+ languages; Aliyun SDK"
+    },
+    {
+      "name": "文心快码",
+      "type": "IDE plugin",
+      "license": "Proprietary",
+      "region": "China",
+      "tier": "B",
+      "notes": "Baidu; 100+ languages; 若依 framework expert; free"
+    },
+    {
+      "name": "豆包 MarsCode",
+      "type": "IDE + cloud IDE",
+      "license": "Proprietary",
+      "region": "China",
+      "tier": "B",
+      "notes": "ByteDance; 100+ languages; project-aware; cloud dev env"
+    },
+    {
+      "name": "腾讯云AI代码助手",
+      "type": "IDE plugin",
+      "license": "Proprietary",
+      "region": "China",
+      "tier": "B",
+      "notes": "Tencent; 50%+ internal usage; hybrid model"
+    },
+    {
+      "name": "Bolt.new",
+      "type": "Browser-based builder",
+      "license": "Proprietary",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Web IDE; minimal setup; not production-ready for complex apps"
+    },
+    {
+      "name": "Lovable",
+      "type": "Web app builder",
+      "license": "Proprietary",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Full-stack web apps; database + payments; exports standard code"
+    },
+    {
+      "name": "v0 (Vercel)",
+      "type": "UI generator",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "C",
+      "notes": "React components from prompts; shadcn/ui integration"
+    },
+    {
+      "name": "Appy Pie",
+      "type": "No-code app builder",
+      "license": "Proprietary",
+      "region": "India",
+      "tier": "C",
+      "notes": "Native Android/iOS; drag-drop; $16/mo; 100K+ apps"
+    },
+    {
+      "name": "Qwen Code CLI",
+      "type": "Terminal agent",
+      "license": "Open source",
+      "region": "China",
+      "tier": "C",
+      "notes": "Alibaba; multi-provider; Alibaba Cloud Coding Plan"
+    },
+    {
+      "name": "Grok Build",
+      "type": "CLI agent",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "C",
+      "notes": "xAI's official Grok-powered CLI"
+    },
+    {
+      "name": "Hermes Agent",
+      "type": "Self-improving harness",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Nous Research; 64K stars; persistent memory; auto skill docs"
+    },
+    {
+      "name": "OpenClaw",
+      "type": "Agent runtime",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "369K stars; channel-agnostic; 3.2M users; sub-agent orchestration"
+    },
+    {
+      "name": "Qodo (CodiumAI)",
+      "type": "PR review + tests",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Auto-description; auto-review; test generation; $19/mo hosted"
+    },
+    {
+      "name": "Snyk",
+      "type": "Security + AI Trust",
+      "license": "Proprietary",
+      "region": "UK/US",
+      "tier": "C",
+      "notes": "DeepCode AI; AI Trust Platform; dependency + agentic security"
+    },
+    {
+      "name": "Aikido Security",
+      "type": "SAST + SCA + IaC",
+      "license": "Proprietary",
+      "region": "EU",
+      "tier": "C",
+      "notes": "AI-generated code security; auto-PR fixes; runtime protection"
+    },
+    {
+      "name": "Corridor.dev",
+      "type": "Real-time security",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "C",
+      "notes": "MCP server; Cursor/Claude/Copilot integration; pre-generation guardrails"
+    },
+    {
+      "name": "Axiomstudio.ai VibeFlow",
+      "type": "Enterprise governance",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "C",
+      "notes": "Compliance tagging; Jira sync; auto code review; CISO target"
+    },
+    {
+      "name": "Quality Clouds",
+      "type": "SaaS AI governance",
+      "license": "Proprietary",
+      "region": "EU",
+      "tier": "C",
+      "notes": "ServiceNow/Salesforce/Dynamics + AI-native; AI Rule Builder"
+    },
+    {
+      "name": "Bito",
+      "type": "AI code review",
+      "license": "Proprietary",
+      "region": "Global",
+      "tier": "C",
+      "notes": "35% demand surge; PR analysis; context-aware"
+    },
+    {
+      "name": "Refraction",
+      "type": "Code generation",
+      "license": "Proprietary",
+      "region": "Global",
+      "tier": "C",
+      "notes": "56 languages; tests, docs, CI/CD; 4/5 rating"
+    },
+    {
+      "name": "Write-the",
+      "type": "Docs + tests",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Python-focused; GPT-based; mkdocs; pytest"
+    },
+    {
+      "name": "Deep Code Review (Augment)",
+      "type": "Cross-service review",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "C",
+      "notes": "450K-file monorepo; Context Engine; 400K+ file semantic understanding"
+    },
+    {
+      "name": "Animus (ao-cli)",
+      "type": "Agent orchestrator",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "YAML workflows; daemon scheduling; multi-model routing"
+    },
+    {
+      "name": "ntm",
+      "type": "Multi-agent terminal",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "tmux multi-agent center; broadcast prompts; conflict tracking"
+    },
+    {
+      "name": "cmux",
+      "type": "Native macOS terminal",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "libghostty-based; vertical tabs; scriptable browser; agent management"
+    },
+    {
+      "name": "vibecode CLI",
+      "type": "Multi-agent execution",
+      "license": "Paid",
+      "region": "Global",
+      "tier": "C",
+      "notes": "30+ pre-authenticated APIs; sandboxing; DB + auth"
+    },
+    {
+      "name": "Droid",
+      "type": "Terminal agent",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "C",
+      "notes": "Factory AI; terminal bench leader; Docker log reading; free trial"
+    },
+    {
+      "name": "Autohand Code CLI",
+      "type": "Terminal agent",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Multi-provider; modular skills; Git integration; cross-platform"
+    },
+    {
+      "name": "Goose",
+      "type": "Terminal agent",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Formerly Block; free/BYOK"
+    },
+    {
+      "name": "Warp",
+      "type": "Terminal + cloud agent",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "C",
+      "notes": "Up to 4 concurrent cloud agents; cloud execution"
+    },
+    {
+      "name": "Athas",
+      "type": "Open editor",
+      "license": "Open source",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Vim keybindings; LSP; agentic editing; multi-model"
+    },
+    {
+      "name": "Amp",
+      "type": "Frontier CLI agent",
+      "license": "Pay-as-you-go",
+      "region": "Global",
+      "tier": "C",
+      "notes": "No markup for individuals; advanced model access"
+    },
+    {
+      "name": "CodeBuddy",
+      "type": "Full-role collaboration",
+      "license": "Proprietary",
+      "region": "China",
+      "tier": "C",
+      "notes": "Huawei; multi-role team collaboration; full lifecycle"
+    },
+    {
+      "name": "Firebase Studio",
+      "type": "Cloud dev environment",
+      "license": "Proprietary",
+      "region": "US",
+      "tier": "C",
+      "notes": "Google; agentic; build/test/deploy/run; cloud-based"
+    },
+    {
+      "name": "Rocket.new",
+      "type": "Vibe coding platform",
+      "license": "Proprietary",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Natural language to app; step-by-step refinement"
+    },
+    {
+      "name": "Webtwizz",
+      "type": "AI app builder",
+      "license": "Proprietary",
+      "region": "Global",
+      "tier": "C",
+      "notes": "Visual editor + Monaco AI editor; exports clean code"
+    },
+    {
+      "name": "Base44",
+      "type": "Web app builder",
+      "license": "Proprietary",
+      "region": "Global",
+      "tier": "C",
+      "notes": "No-code/low-code; database + auth included"
+    },
+    {
+      "name": "KulaAI",
+      "type": "Model testing platform",
+      "license": "Proprietary",
+      "region": "China",
+      "tier": "C",
+      "notes": "Algorithm benchmarking; model comparison; DeepSeek/Claude/通义千问"
+    }
+  ]
+}
