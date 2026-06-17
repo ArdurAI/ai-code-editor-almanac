@@ -2,10 +2,11 @@
   "meta": {
     "name": "Code Editors & IDE Assistants Almanac Roster",
     "version": "2026-06",
-    "generated_at": "2026-06-16T22:46:00Z",
+    "generated_at": "2026-06-17T00:00:00Z",
     "total_tools": 63,
     "parent_almanac": "ArdurAI/ai-infrastructure-almanac",
-    "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents"
+    "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents",
+    "schema_version": "1.1"
   },
   "category": "code-editors",
   "category_name": "Code Editors & IDE Assistants",
@@ -16,7 +17,22 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "A",
-      "notes": "VS Code fork; market leader; $20-200/mo"
+      "notes": "VS Code fork; market leader; $20-200/mo",
+      "ide_support": [
+        "VS Code",
+        "Standalone"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "GitHub Copilot",
@@ -24,7 +40,27 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "A",
-      "notes": "Widest adoption; usage-based credits from June 2026"
+      "notes": "Widest adoption; usage-based credits from June 2026",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Vim",
+        "Neovim",
+        "Visual Studio"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Claude Code",
@@ -32,7 +68,22 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "A",
-      "notes": "~$2.5B ARR; 1M context; Agent Teams; SWE-bench 82%"
+      "notes": "~$2.5B ARR; 1M context; Agent Teams; SWE-bench 82%",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Windsurf",
@@ -40,7 +91,22 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "A",
-      "notes": "Formerly Codeium; acquired by Cognition Dec 2025"
+      "notes": "Formerly Codeium; acquired by Cognition Dec 2025",
+      "ide_support": [
+        "VS Code",
+        "Standalone"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "OpenCode",
@@ -48,7 +114,22 @@
       "license": "MIT",
       "region": "Global",
       "tier": "A",
-      "notes": "150K+ stars; 75+ LLM providers; Go-based"
+      "notes": "150K+ stars; 75+ LLM providers; Go-based",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Cline",
@@ -56,7 +137,22 @@
       "license": "Apache-2.0",
       "region": "Global",
       "tier": "A",
-      "notes": "5M+ installs; native subagents; BYOK; browser automation"
+      "notes": "5M+ installs; native subagents; BYOK; browser automation",
+      "ide_support": [
+        "VS Code",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Aider",
@@ -64,7 +160,22 @@
       "license": "MIT",
       "region": "Global",
       "tier": "A",
-      "notes": "42K+ stars; Git-aware diffs; model-agnostic"
+      "notes": "42K+ stars; Git-aware diffs; model-agnostic",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Continue",
@@ -72,7 +183,22 @@
       "license": "Apache-2.0",
       "region": "Global",
       "tier": "A",
-      "notes": "20K+ stars; BYOK; code review; CI-enforceable checks"
+      "notes": "20K+ stars; BYOK; code review; CI-enforceable checks",
+      "ide_support": [
+        "VS Code",
+        "JetBrains"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Zed",
@@ -80,7 +206,20 @@
       "license": "Open source",
       "region": "Global",
       "tier": "A",
-      "notes": "Multi-provider chat; real-time collab; GPU-accelerated"
+      "notes": "Multi-provider chat; real-time collab; GPU-accelerated",
+      "ide_support": [
+        "Standalone"
+      ],
+      "languages": [
+        "Rust",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Trae",
@@ -88,7 +227,22 @@
       "license": "Proprietary",
       "region": "China",
       "tier": "A",
-      "notes": "ByteDance; free; VS Code fork; 95% WeChat SDK accuracy"
+      "notes": "ByteDance; free; VS Code fork; 95% WeChat SDK accuracy",
+      "ide_support": [
+        "VS Code",
+        "Standalone"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Free"
     },
     {
       "name": "Tabnine",
@@ -96,7 +250,29 @@
       "license": "Proprietary",
       "region": "Israel/US",
       "tier": "A",
-      "notes": "1M+ devs; on-prem; zero data retention; SOC 2/GDPR"
+      "notes": "1M+ devs; on-prem; zero data retention; SOC 2/GDPR",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Vim",
+        "Neovim",
+        "Visual Studio",
+        "Eclipse",
+        "Sublime"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Codex CLI",
@@ -104,7 +280,22 @@
       "license": "Apache-2.0",
       "region": "US",
       "tier": "A",
-      "notes": "OpenAI; Rust-native; 240+ tok/s; included in ChatGPT"
+      "notes": "OpenAI; Rust-native; 240+ tok/s; included in ChatGPT",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Gemini CLI",
@@ -112,7 +303,22 @@
       "license": "Apache-2.0",
       "region": "US",
       "tier": "A",
-      "notes": "1M token context; 1,000 req/day free; full open source"
+      "notes": "1M token context; 1,000 req/day free; full open source",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Kimi CLI",
@@ -120,7 +326,22 @@
       "license": "Open source",
       "region": "China",
       "tier": "A",
-      "notes": "Moonshot; Agent Swarm up to 300 sub-agents; K2.6"
+      "notes": "Moonshot; Agent Swarm up to 300 sub-agents; K2.6",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Devin",
@@ -128,7 +349,22 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "A",
-      "notes": "Cognition; full VM; Slack-native; $20/mo entry + ACUs"
+      "notes": "Cognition; full VM; Slack-native; $20/mo entry + ACUs",
+      "ide_support": [
+        "Web",
+        "Slack"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "OpenHands",
@@ -136,7 +372,22 @@
       "license": "MIT",
       "region": "Global",
       "tier": "A",
-      "notes": "70K+ stars; formerly OpenDevin; Docker sandboxed"
+      "notes": "70K+ stars; formerly OpenDevin; Docker sandboxed",
+      "ide_support": [
+        "Web",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "CodeRabbit",
@@ -144,7 +395,25 @@
       "license": "Proprietary",
       "region": "Global",
       "tier": "A",
-      "notes": "$550M valuation; 8,000+ customers; line-by-line feedback"
+      "notes": "$550M valuation; 8,000+ customers; line-by-line feedback",
+      "ide_support": [
+        "GitHub",
+        "GitLab",
+        "Bitbucket"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Supermaven",
@@ -152,7 +421,24 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "B",
-      "notes": "Acquired by Cursor; fast long-context completions"
+      "notes": "Acquired by Cursor; fast long-context completions",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Vim",
+        "Neovim"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Cody",
@@ -160,7 +446,24 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "B",
-      "notes": "Sourcegraph; large codebase context; $9-19/mo"
+      "notes": "Sourcegraph; large codebase context; $9-19/mo",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Vim",
+        "Neovim"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Amazon Q Developer",
@@ -168,7 +471,24 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "B",
-      "notes": "AWS ecosystem; formerly CodeWhisperer; 60 free tasks/mo"
+      "notes": "AWS ecosystem; formerly CodeWhisperer; 60 free tasks/mo",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "JetBrains Junie",
@@ -176,7 +496,22 @@
       "license": "Proprietary",
       "region": "Czechia",
       "tier": "B",
-      "notes": "Multi-agent support; BYOK; AI Pro $10/mo"
+      "notes": "Multi-agent support; BYOK; AI Pro $10/mo",
+      "ide_support": [
+        "JetBrains"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "Kotlin",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Replit Agent",
@@ -184,7 +519,22 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "B",
-      "notes": "Full-stack from prompt; deploy in one click; $20-90/mo"
+      "notes": "Full-stack from prompt; deploy in one click; $20-90/mo",
+      "ide_support": [
+        "Web",
+        "Standalone"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Kilo Code",
@@ -192,7 +542,22 @@
       "license": "Open source",
       "region": "Global",
       "tier": "B",
-      "notes": "500+ models; Architect/Code/Debug modes"
+      "notes": "500+ models; Architect/Code/Debug modes",
+      "ide_support": [
+        "VS Code",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Roo Code",
@@ -200,7 +565,21 @@
       "license": "Open source",
       "region": "Global",
       "tier": "B",
-      "notes": "Cline fork; multi-mode agent loop; community-driven"
+      "notes": "Cline fork; multi-mode agent loop; community-driven",
+      "ide_support": [
+        "VS Code"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Tabby",
@@ -208,7 +587,24 @@
       "license": "Open source",
       "region": "Global",
       "tier": "B",
-      "notes": "Kubernetes deploy; server-side index; RAG; StarCoder"
+      "notes": "Kubernetes deploy; server-side index; RAG; StarCoder",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Vim",
+        "Neovim"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "通义灵码",
@@ -216,7 +612,25 @@
       "license": "Proprietary",
       "region": "China",
       "tier": "B",
-      "notes": "Alibaba; database-aware; 200+ languages; Aliyun SDK"
+      "notes": "Alibaba; database-aware; 200+ languages; Aliyun SDK",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Visual Studio"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "文心快码",
@@ -224,7 +638,25 @@
       "license": "Proprietary",
       "region": "China",
       "tier": "B",
-      "notes": "Baidu; 100+ languages; 若依 framework expert; free"
+      "notes": "Baidu; 100+ languages; 若依 framework expert; free",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Visual Studio"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Free"
     },
     {
       "name": "豆包 MarsCode",
@@ -232,7 +664,25 @@
       "license": "Proprietary",
       "region": "China",
       "tier": "B",
-      "notes": "ByteDance; 100+ languages; project-aware; cloud dev env"
+      "notes": "ByteDance; 100+ languages; project-aware; cloud dev env",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Web"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "腾讯云AI代码助手",
@@ -240,7 +690,25 @@
       "license": "Proprietary",
       "region": "China",
       "tier": "B",
-      "notes": "Tencent; 50%+ internal usage; hybrid model"
+      "notes": "Tencent; 50%+ internal usage; hybrid model",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Visual Studio"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "Bolt.new",
@@ -248,7 +716,17 @@
       "license": "Proprietary",
       "region": "Global",
       "tier": "C",
-      "notes": "Web IDE; minimal setup; not production-ready for complex apps"
+      "notes": "Web IDE; minimal setup; not production-ready for complex apps",
+      "ide_support": [
+        "Web"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "Lovable",
@@ -256,7 +734,18 @@
       "license": "Proprietary",
       "region": "Global",
       "tier": "C",
-      "notes": "Full-stack web apps; database + payments; exports standard code"
+      "notes": "Full-stack web apps; database + payments; exports standard code",
+      "ide_support": [
+        "Web"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Python"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "v0 (Vercel)",
@@ -264,7 +753,18 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "C",
-      "notes": "React components from prompts; shadcn/ui integration"
+      "notes": "React components from prompts; shadcn/ui integration",
+      "ide_support": [
+        "Web"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "React"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "Appy Pie",
@@ -272,7 +772,17 @@
       "license": "Proprietary",
       "region": "India",
       "tier": "C",
-      "notes": "Native Android/iOS; drag-drop; $16/mo; 100K+ apps"
+      "notes": "Native Android/iOS; drag-drop; $16/mo; 100K+ apps",
+      "ide_support": [
+        "Web"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Qwen Code CLI",
@@ -280,7 +790,22 @@
       "license": "Open source",
       "region": "China",
       "tier": "C",
-      "notes": "Alibaba; multi-provider; Alibaba Cloud Coding Plan"
+      "notes": "Alibaba; multi-provider; Alibaba Cloud Coding Plan",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Grok Build",
@@ -288,7 +813,22 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "C",
-      "notes": "xAI's official Grok-powered CLI"
+      "notes": "xAI's official Grok-powered CLI",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Hermes Agent",
@@ -296,7 +836,22 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "Nous Research; 64K stars; persistent memory; auto skill docs"
+      "notes": "Nous Research; 64K stars; persistent memory; auto skill docs",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "OpenClaw",
@@ -304,7 +859,23 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "369K stars; channel-agnostic; 3.2M users; sub-agent orchestration"
+      "notes": "369K stars; channel-agnostic; 3.2M users; sub-agent orchestration",
+      "ide_support": [
+        "Terminal",
+        "CLI",
+        "Web"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Qodo (CodiumAI)",
@@ -312,7 +883,23 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "Auto-description; auto-review; test generation; $19/mo hosted"
+      "notes": "Auto-description; auto-review; test generation; $19/mo hosted",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "GitHub"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "Snyk",
@@ -320,7 +907,26 @@
       "license": "Proprietary",
       "region": "UK/US",
       "tier": "C",
-      "notes": "DeepCode AI; AI Trust Platform; dependency + agentic security"
+      "notes": "DeepCode AI; AI Trust Platform; dependency + agentic security",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "GitHub",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Aikido Security",
@@ -328,7 +934,26 @@
       "license": "Proprietary",
       "region": "EU",
       "tier": "C",
-      "notes": "AI-generated code security; auto-PR fixes; runtime protection"
+      "notes": "AI-generated code security; auto-PR fixes; runtime protection",
+      "ide_support": [
+        "GitHub",
+        "GitLab",
+        "Bitbucket",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Corridor.dev",
@@ -336,7 +961,22 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "C",
-      "notes": "MCP server; Cursor/Claude/Copilot integration; pre-generation guardrails"
+      "notes": "MCP server; Cursor/Claude/Copilot integration; pre-generation guardrails",
+      "ide_support": [
+        "VS Code",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Axiomstudio.ai VibeFlow",
@@ -344,7 +984,23 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "C",
-      "notes": "Compliance tagging; Jira sync; auto code review; CISO target"
+      "notes": "Compliance tagging; Jira sync; auto code review; CISO target",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Web"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Enterprise"
     },
     {
       "name": "Quality Clouds",
@@ -352,7 +1008,21 @@
       "license": "Proprietary",
       "region": "EU",
       "tier": "C",
-      "notes": "ServiceNow/Salesforce/Dynamics + AI-native; AI Rule Builder"
+      "notes": "ServiceNow/Salesforce/Dynamics + AI-native; AI Rule Builder",
+      "ide_support": [
+        "Web",
+        "ServiceNow",
+        "Salesforce",
+        "Dynamics"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Java",
+        "C#"
+      ],
+      "pricing_model": "Enterprise"
     },
     {
       "name": "Bito",
@@ -360,7 +1030,23 @@
       "license": "Proprietary",
       "region": "Global",
       "tier": "C",
-      "notes": "35% demand surge; PR analysis; context-aware"
+      "notes": "35% demand surge; PR analysis; context-aware",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "GitHub"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Refraction",
@@ -368,7 +1054,24 @@
       "license": "Proprietary",
       "region": "Global",
       "tier": "C",
-      "notes": "56 languages; tests, docs, CI/CD; 4/5 rating"
+      "notes": "56 languages; tests, docs, CI/CD; 4/5 rating",
+      "ide_support": [
+        "Web",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Write-the",
@@ -376,7 +1079,15 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "Python-focused; GPT-based; mkdocs; pytest"
+      "notes": "Python-focused; GPT-based; mkdocs; pytest",
+      "ide_support": [
+        "VS Code",
+        "CLI"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Deep Code Review (Augment)",
@@ -384,7 +1095,24 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "C",
-      "notes": "450K-file monorepo; Context Engine; 400K+ file semantic understanding"
+      "notes": "450K-file monorepo; Context Engine; 400K+ file semantic understanding",
+      "ide_support": [
+        "VS Code",
+        "JetBrains"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#",
+        "PHP"
+      ],
+      "pricing_model": "Subscription"
     },
     {
       "name": "Animus (ao-cli)",
@@ -392,7 +1120,22 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "YAML workflows; daemon scheduling; multi-model routing"
+      "notes": "YAML workflows; daemon scheduling; multi-model routing",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "ntm",
@@ -400,7 +1143,21 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "tmux multi-agent center; broadcast prompts; conflict tracking"
+      "notes": "tmux multi-agent center; broadcast prompts; conflict tracking",
+      "ide_support": [
+        "Terminal"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "cmux",
@@ -408,7 +1165,22 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "libghostty-based; vertical tabs; scriptable browser; agent management"
+      "notes": "libghostty-based; vertical tabs; scriptable browser; agent management",
+      "ide_support": [
+        "Terminal",
+        "Standalone"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "vibecode CLI",
@@ -416,7 +1188,22 @@
       "license": "Paid",
       "region": "Global",
       "tier": "C",
-      "notes": "30+ pre-authenticated APIs; sandboxing; DB + auth"
+      "notes": "30+ pre-authenticated APIs; sandboxing; DB + auth",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Paid"
     },
     {
       "name": "Droid",
@@ -424,7 +1211,22 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "C",
-      "notes": "Factory AI; terminal bench leader; Docker log reading; free trial"
+      "notes": "Factory AI; terminal bench leader; Docker log reading; free trial",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "Autohand Code CLI",
@@ -432,7 +1234,22 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "Multi-provider; modular skills; Git integration; cross-platform"
+      "notes": "Multi-provider; modular skills; Git integration; cross-platform",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Goose",
@@ -440,7 +1257,22 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "Formerly Block; free/BYOK"
+      "notes": "Formerly Block; free/BYOK",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Warp",
@@ -448,7 +1280,22 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "C",
-      "notes": "Up to 4 concurrent cloud agents; cloud execution"
+      "notes": "Up to 4 concurrent cloud agents; cloud execution",
+      "ide_support": [
+        "Terminal",
+        "Standalone"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "Athas",
@@ -456,7 +1303,21 @@
       "license": "Open source",
       "region": "Global",
       "tier": "C",
-      "notes": "Vim keybindings; LSP; agentic editing; multi-model"
+      "notes": "Vim keybindings; LSP; agentic editing; multi-model",
+      "ide_support": [
+        "Standalone"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     },
     {
       "name": "Amp",
@@ -464,7 +1325,22 @@
       "license": "Pay-as-you-go",
       "region": "Global",
       "tier": "C",
-      "notes": "No markup for individuals; advanced model access"
+      "notes": "No markup for individuals; advanced model access",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Pay-as-you-go"
     },
     {
       "name": "CodeBuddy",
@@ -472,7 +1348,24 @@
       "license": "Proprietary",
       "region": "China",
       "tier": "C",
-      "notes": "Huawei; multi-role team collaboration; full lifecycle"
+      "notes": "Huawei; multi-role team collaboration; full lifecycle",
+      "ide_support": [
+        "VS Code",
+        "JetBrains",
+        "Web"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby",
+        "C#"
+      ],
+      "pricing_model": "Proprietary"
     },
     {
       "name": "Firebase Studio",
@@ -480,7 +1373,19 @@
       "license": "Proprietary",
       "region": "US",
       "tier": "C",
-      "notes": "Google; agentic; build/test/deploy/run; cloud-based"
+      "notes": "Google; agentic; build/test/deploy/run; cloud-based",
+      "ide_support": [
+        "Web",
+        "Standalone"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Go",
+        "Java"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "Rocket.new",
@@ -488,7 +1393,18 @@
       "license": "Proprietary",
       "region": "Global",
       "tier": "C",
-      "notes": "Natural language to app; step-by-step refinement"
+      "notes": "Natural language to app; step-by-step refinement",
+      "ide_support": [
+        "Web"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Python"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "Webtwizz",
@@ -496,7 +1412,18 @@
       "license": "Proprietary",
       "region": "Global",
       "tier": "C",
-      "notes": "Visual editor + Monaco AI editor; exports clean code"
+      "notes": "Visual editor + Monaco AI editor; exports clean code",
+      "ide_support": [
+        "Web"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Python"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "Base44",
@@ -504,7 +1431,18 @@
       "license": "Proprietary",
       "region": "Global",
       "tier": "C",
-      "notes": "No-code/low-code; database + auth included"
+      "notes": "No-code/low-code; database + auth included",
+      "ide_support": [
+        "Web"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Python"
+      ],
+      "pricing_model": "Freemium"
     },
     {
       "name": "KulaAI",
@@ -512,7 +1450,16 @@
       "license": "Proprietary",
       "region": "China",
       "tier": "C",
-      "notes": "Algorithm benchmarking; model comparison; DeepSeek/Claude/通义千问"
+      "notes": "Algorithm benchmarking; model comparison; DeepSeek/Claude/通义千问",
+      "ide_support": [
+        "Web"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "pricing_model": "Freemium"
     }
   ]
 }
