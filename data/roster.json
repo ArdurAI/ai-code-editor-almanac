@@ -3,7 +3,7 @@
     "name": "Code Editors & IDE Assistants Almanac Roster",
     "version": "2026-06",
     "generated_at": "2026-06-17T00:00:00Z",
-    "total_tools": 63,
+    "total_tools": 64,
     "parent_almanac": "ArdurAI/ai-infrastructure-almanac",
     "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents",
     "schema_version": "1.1"
@@ -1460,6 +1460,29 @@
         "TypeScript"
       ],
       "pricing_model": "Freemium"
+    },
+    {
+      "name": "Oh-My-Pi",
+      "type": "Terminal agent",
+      "license": "MIT",
+      "region": "Global",
+      "tier": "B",
+      "notes": "9.3K stars; 410 releases; LSP + DAP + kernels + ripgrep + ast-grep; 40+ LLM providers",
+      "ide_support": [
+        "Terminal",
+        "CLI"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "pricing_model": "Open Source"
     }
   ]
 }

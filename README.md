@@ -24,11 +24,11 @@ A living encyclopedia of AI code editors, IDE assistants, and terminal coding ag
 
 **Tier A** — 17 tools: Cursor, GitHub Copilot, Claude Code, Windsurf, OpenCode, Cline, Aider, Continue, Zed, Trae…
 
-**Tier B** — 12 tools: Supermaven, Cody, Amazon Q Developer, JetBrains Junie, Replit Agent, Kilo Code, Roo Code, Tabby, 通义灵码, 文心快码…
+**Tier B** — 13 tools: Supermaven, Cody, Amazon Q Developer, JetBrains Junie, Replit Agent, Kilo Code, Roo Code, Tabby, 通义灵码, 文心快码, 豆包 MarsCode, 腾讯云AI代码助手, Oh-My-Pi…
 
 **Tier C** — 34 tools: Bolt.new, Lovable, v0 (Vercel), Appy Pie, Qwen Code CLI, Grok Build, Hermes Agent, OpenClaw, Qodo (CodiumAI), Snyk…
 
-**Total: 63 tools**
+**Total: 64 tools**
 
 ## Methodology
 
