@@ -1,0 +1,277 @@
+meta:
+  repo: ArdurAI/ai-code-editor-almanac
+  category: AI Code Editors
+  total_tools: 30
+  generated_at: '2026-07-03T10:51:27.680467'
+  schema_version: 2.0.0
+tools:
+- name: Aider
+  id: aider
+  tier: A
+  type: Terminal pair-programmer
+  license: Apache-2.0
+  stars: 46,961
+  github: https://github.com/Aider-AI/aider
+  description: ''
+  file: aider.md
+- name: Claude Code
+  id: claude-code
+  tier: A
+  type: CLI agent
+  license: Proprietary
+  stars: null
+  github: https://github.com/anthropics/claude-code
+  description: ''
+  file: claude-code.md
+- name: Cline
+  id: cline
+  tier: A
+  type: VS Code + CLI
+  license: Apache-2.0
+  stars: 64,218
+  github: https://github.com/cline/cline
+  description: ''
+  file: cline.md
+- name: CodeRabbit
+  id: coderabbit
+  tier: A
+  type: AI code review
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: coderabbit.md
+- name: Codex CLI
+  id: codex-cli
+  tier: A
+  type: CLI agent
+  license: Apache-2.0
+  stars: 95,112
+  github: https://github.com/openai/codex
+  description: ''
+  file: codex-cli.md
+- name: Continue
+  id: continue
+  tier: A
+  type: IDE extension
+  license: Apache-2.0
+  stars: 34,647
+  github: https://github.com/continuedev/continue
+  description: ''
+  file: continue.md
+- name: Cursor
+  id: cursor
+  tier: A
+  type: AI-native IDE
+  license: Proprietary
+  stars: null
+  github: https://github.com/cursor/cursor
+  description: ''
+  file: cursor.md
+- name: Devin
+  id: devin
+  tier: A
+  type: Autonomous SWE
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: devin.md
+- name: Gemini CLI
+  id: gemini-cli
+  tier: A
+  type: CLI agent
+  license: Apache-2.0
+  stars: 105,721
+  github: https://github.com/google-gemini/gemini-cli
+  description: ''
+  file: gemini-cli.md
+- name: GitHub Copilot
+  id: github-copilot
+  tier: A
+  type: IDE assistant
+  license: Proprietary
+  stars: null
+  github: https://github.com/features/copilot
+  description: ''
+  file: github-copilot.md
+- name: Kimi CLI
+  id: kimi-cli
+  tier: A
+  type: Terminal agent
+  license: Apache-2.0 (open source)
+  stars: 9,121
+  github: https://github.com/moonshotai/kimi-cli
+  description: ''
+  file: kimi-cli.md
+- name: OpenCode
+  id: opencode
+  tier: A
+  type: Terminal TUI
+  license: MIT
+  stars: 181,716
+  github: https://github.com/sst/opencode
+  description: ''
+  file: opencode.md
+- name: OpenHands
+  id: openhands
+  tier: A
+  type: Autonomous agent
+  license: MIT
+  stars: 79,171
+  github: https://github.com/All-Hands-AI/OpenHands
+  description: ''
+  file: openhands.md
+- name: Tabnine
+  id: tabnine
+  tier: A
+  type: Completion + chat
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: tabnine.md
+- name: Trae
+  id: trae
+  tier: A
+  type: AI IDE
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: trae.md
+- name: Windsurf
+  id: windsurf
+  tier: A
+  type: AI-native IDE
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: windsurf.md
+- name: Zed
+  id: zed
+  tier: A
+  type: Rust-native editor
+  license: Open source (GPL/AGPL core)
+  stars: 86,367
+  github: https://github.com/zed-industries/zed
+  description: ''
+  file: zed.md
+- name: Amazon Q Developer
+  id: amazon-q-developer
+  tier: B
+  type: IDE + CLI
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: amazon-q-developer.md
+- name: Cody
+  id: cody
+  tier: B
+  type: Codebase assistant
+  license: Proprietary
+  stars: 3.8K
+  github: https://github.com/sourcegraph/cody-public-snapshot
+  description: ''
+  file: cody.md
+- name: JetBrains Junie
+  id: jetbrains-junie
+  tier: B
+  type: IDE agent
+  license: Proprietary
+  stars: '313'
+  github: https://github.com/JetBrains/junie
+  description: ''
+  file: jetbrains-junie.md
+- name: Kilo Code
+  id: kilo-code
+  tier: B
+  type: Multi-platform agent
+  license: MIT (open source)
+  stars: 25,414
+  github: https://github.com/Kilo-Org/kilocode
+  description: ''
+  file: kilo-code.md
+- name: Oh-My-Pi (omp)
+  id: oh-my-pi-omp
+  tier: B
+  type: Terminal agent
+  license: MIT
+  stars: 9.3K
+  github: https://github.com/oh-my-pi/omp
+  description: ''
+  file: oh-my-pi.md
+- name: Replit Agent
+  id: replit-agent
+  tier: B
+  type: Cloud app builder
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: replit-agent.md
+- name: Roo Code
+  id: roo-code
+  tier: B
+  type: VS Code extension
+  license: Apache-2.0 (open source)
+  stars: 24,300
+  github: https://github.com/RooCodeInc/Roo-Code
+  description: ''
+  file: roo-code.md
+- name: Supermaven
+  id: supermaven
+  tier: B
+  type: Completion engine
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: supermaven.md
+- name: Tabby
+  id: tabby
+  tier: B
+  type: Self-hosted completion
+  license: Apache-2.0 (open source)
+  stars: 33,663
+  github: https://github.com/TabbyML/tabby
+  description: ''
+  file: tabby.md
+- name: 文心快码 (Baidu Comate)
+  id: 文心快码-baidu-comate
+  tier: B
+  type: IDE plugin
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: 文心快码.md
+- name: 腾讯云AI代码助手 (Tencent Cloud AI Code Assistant)
+  id: 腾讯云ai代码助手-tencent-cloud-ai-code-assistant
+  tier: B
+  type: IDE plugin
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: 腾讯云ai代码助手.md
+- name: 豆包 MarsCode (Doubao MarsCode)
+  id: 豆包-marscode-doubao-marscode
+  tier: B
+  type: IDE + cloud IDE
+  license: Proprietary
+  stars: null
+  github: null
+  description: ''
+  file: 豆包-marscode.md
+- name: 通义灵码 (Tongyi Lingma)
+  id: 通义灵码-tongyi-lingma
+  tier: B
+  type: IDE plugin
+  license: Proprietary
+  stars: null
+  github: https://github.com/QwenLM/Qwen
+  description: ''
+  file: 通义灵码.md
