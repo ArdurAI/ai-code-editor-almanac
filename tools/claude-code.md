@@ -94,6 +94,12 @@ Claude Code is a terminal-native AI agent that runs in your development environm
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `v2.1.205` (2026-07-08): adds an auto-mode guard against session transcript tampering; fixes invalid `--json-schema` handling, lost messages at `--max-turns`, Windows worktree deletion safety, background-agent state display, PR linking, MCP import edge cases, plugin LSP fallback, and Windows launch-directory crashes.
+- **Adoption signal:** GitHub stars moved from 136,053 to 137,014 (+961). Star references in this file now use the new 137,014 baseline.
+- **Community health:** Open issues increased from 9,811 to 10,822 (+1,011). This is a sharp support-load spike; treat backlog growth and triage responsiveness as a near-term risk.
+
 ### 1. How Is This Tool Useful?
 
 Claude Code has emerged as the most capable agentic coding tool available, achieving an 82% score on SWE-bench Verified — the highest among general-purpose coding agents. Its value lies in genuine autonomy: given a task description, Claude Code can navigate a codebase, understand architecture, make coordinated changes across multiple files, run tests, debug failures, and produce working solutions. This represents a qualitative leap from completion-style tools.
@@ -161,7 +167,7 @@ Claude Code's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. Anthropic's Claude Code repo (anthropics/claude-code) has **135K+ stars** and 21K+ forks on GitHub — one of the fastest-growing repos ever. 9,700+ open issues reflect massive adoption. Updated daily.
+**Development activity**: Extremely active. Anthropic's Claude Code repo (anthropics/claude-code) has **137K+ stars** and 21K+ forks on GitHub — one of the fastest-growing repos ever. 10,822 open issues reflect massive adoption. Updated daily.
 
 **Areas for improvement:**
 - Multi-model support (currently Claude-only)
@@ -175,7 +181,7 @@ Claude Code's unique advantages:
 ### 9. Official Maintainer Contacts
 
 - **Company**: Anthropic — https://anthropic.com
-- **GitHub**: [anthropics/claude-code](https://github.com/anthropics/claude-code) — 135K+ stars
+- **GitHub**: [anthropics/claude-code](https://github.com/anthropics/claude-code) — 137K+ stars
 - **Twitter/X**: [@AnthropicAI](https://twitter.com/AnthropicAI)
 - **Discord**: Anthropic Discord community
 - **Docs**: https://docs.anthropic.com/claude-code

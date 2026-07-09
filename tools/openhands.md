@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-79K+ GitHub stars (formerly OpenDevin); the leading open-source autonomous AI software engineering agent with Docker-sandboxed execution, multi-model support, and SWE-bench leading performance.
+80K+ GitHub stars (formerly OpenDevin); the leading open-source autonomous AI software engineering agent with Docker-sandboxed execution, multi-model support, and SWE-bench leading performance.
 
 ## Architecture
 
@@ -29,7 +29,7 @@ OpenHands (formerly OpenDevin) is an open-source autonomous AI software engineer
 
 ## Key features
 
-- 79K+ stars — most popular open-source autonomous coding agent
+- 80K+ stars — most popular open-source autonomous coding agent
 - Docker-sandboxed execution (shell, browser, file system)
 - BYOK with Claude, GPT, Gemini, and local model support
 - Built-in SWE-bench evaluation harness
@@ -88,15 +88,20 @@ OpenHands (formerly OpenDevin) is an open-source autonomous AI software engineer
 - **License:** MIT
 - **Region:** Global
 - **Tier:** A
-- **Notes:** 79K+ stars; formerly OpenDevin; Docker sandboxed
+- **Notes:** 80K+ stars; formerly OpenDevin; Docker sandboxed
 
 ---
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `cloud-1.44.0` (2026-07-09): passes repository metadata into observability traces and bumps OpenHands SDK packages to v1.34.0.
+- **Adoption signal:** GitHub stars moved from 79,403 to 80,174 (+771). Star references in this file now use the new 80,174 baseline.
+
 ### 1. How Is This Tool Useful?
 
-OpenHands is the open-source alternative to Devin — a fully autonomous AI software engineering agent that runs in Docker-sandboxed environments. Its 79K+ GitHub stars (under the All-Hands-AI organization, formerly OpenDevin) make it the most popular open-source autonomous coding agent by a wide margin. For teams that want Devin-like autonomous capabilities without vendor lock-in or proprietary pricing, OpenHands is the natural choice.
+OpenHands is the open-source alternative to Devin — a fully autonomous AI software engineering agent that runs in Docker-sandboxed environments. Its 80K+ GitHub stars (under the All-Hands-AI organization, formerly OpenDevin) make it the most popular open-source autonomous coding agent by a wide margin. For teams that want Devin-like autonomous capabilities without vendor lock-in or proprietary pricing, OpenHands is the natural choice.
 
 The Docker-sandboxed execution model is both a security feature and a capability enabler. Each agent task runs in an isolated container with controlled access to shell, file system, and browser — preventing unintended damage to the host system while giving the agent the tools it needs for complex tasks. This makes OpenHands suitable for running untrusted or experimental code, and for CI/CD integration where agents handle automated tasks like bug fixing or test generation.
 
@@ -160,7 +165,7 @@ OpenHands's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. [OpenHands/OpenHands](https://github.com/All-Hands-AI/OpenHands) (redirected from All-Hands-AI/OpenHands) has **79,171 stars**, 10,076 forks, 341 open issues. Last pushed: July 2, 2026. Created March 2024 (as OpenDevin) — explosive growth.
+**Development activity**: Extremely active. [OpenHands/OpenHands](https://github.com/All-Hands-AI/OpenHands) (redirected from All-Hands-AI/OpenHands) has **80,174 stars**, 10,076 forks, 354 open issues. Last pushed: July 9, 2026. Created March 2024 (as OpenDevin) — explosive growth.
 
 **Areas for improvement:**
 - Simplified setup (one-click Docker or cloud deployment)

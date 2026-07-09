@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-OpenAI's open-source CLI coding agent; 95K+ GitHub stars; Rust-native with sandboxed execution; included in ChatGPT subscriptions; 240+ tok/s streaming.
+OpenAI's open-source CLI coding agent; 96.5K+ GitHub stars; Rust-native with sandboxed execution; included in ChatGPT subscriptions; 240+ tok/s streaming.
 
 ## Architecture
 
@@ -96,6 +96,12 @@ Codex CLI is OpenAI's terminal-native AI coding agent, written in Rust. Key arch
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `rust-v0.143.0` (2026-07-08): enables remote plugins by default with richer catalog/npm marketplace metadata, adds macOS/Windows system-proxy routing for auth and Responses API traffic, adds manual daemon pairing, expands Bedrock model support, and improves MCP/session-auth behavior.
+- **Adoption signal:** GitHub stars moved from 95,494 to 96,550 (+1,056). Star references in this file now use the new 96,550 baseline.
+- **Community health:** Open issues increased from 8,194 to 8,561 (+367). This is a material backlog increase; monitor regression volume and maintainer response time.
+
 ### 1. How Is This Tool Useful?
 
 Codex CLI represents OpenAI's entry into the terminal-native agentic coding space, and its inclusion in ChatGPT subscriptions makes it the most accessible CLI agent for the millions of existing ChatGPT subscribers. If you already pay $20/month for ChatGPT Plus, you get a capable CLI coding agent at no additional cost — a compelling value proposition compared to paying per-token API rates for Claude Code or other agents.
@@ -161,7 +167,7 @@ Codex CLI's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. [openai/codex](https://github.com/openai/codex) has **95,112 stars**, 14,105 forks, 8,079 open issues. Last pushed: July 2, 2026. Created April 2025 — explosive growth (95K stars in ~14 months).
+**Development activity**: Extremely active. [openai/codex](https://github.com/openai/codex) has **96,550 stars**, 14,105 forks, 8,561 open issues. Last pushed: July 9, 2026. Created April 2025 — explosive growth (96.5K stars in ~14 months).
 
 **Areas for improvement:**
 - Multi-model support (Claude, Gemini, local models)
@@ -175,7 +181,7 @@ Codex CLI's unique advantages:
 ### 9. Official Maintainer Contacts
 
 - **Company**: OpenAI — https://openai.com
-- **GitHub**: [openai/codex](https://github.com/openai/codex) — 95K+ stars
+- **GitHub**: [openai/codex](https://github.com/openai/codex) — 96.5K+ stars
 - **Twitter/X**: [@OpenAI](https://twitter.com/OpenAI), [@OpenAIDevs](https://twitter.com/OpenAIDevs)
 - **Discord**: OpenAI Developer Community
 - **Docs**: https://github.com/openai/codex#readme

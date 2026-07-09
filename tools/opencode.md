@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-182K+ GitHub stars; a terminal-based AI coding agent with TUI, 75+ LLM provider support, and Go-based architecture — one of the fastest-growing developer tools of 2025–2026.
+184K+ GitHub stars; a terminal-based AI coding agent with TUI, 75+ LLM provider support, and Go-based architecture — one of the fastest-growing developer tools of 2025–2026.
 
 ## Architecture
 
@@ -30,7 +30,7 @@ OpenCode is a terminal-native AI coding agent with a TUI (text user interface). 
 
 ## Key features
 
-- 182K+ GitHub stars — one of the most starred developer tools ever
+- 184K+ GitHub stars — one of the most starred developer tools ever
 - 75+ LLM provider support (BYOK)
 - Rich TUI with file browser, chat, and diff viewer
 - Go-native (fast, low resource usage, cross-platform)
@@ -89,15 +89,21 @@ OpenCode is a terminal-native AI coding agent with a TUI (text user interface). 
 - **License:** MIT
 - **Region:** Global
 - **Tier:** A
-- **Notes:** 182K+ stars; 75+ LLM providers; Go-based
+- **Notes:** 184K+ stars; 75+ LLM providers; Go-based
 
 ---
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `v1.17.17` (2026-07-09): improves Meta reasoning-variant/provider handling, fixes desktop model-selector text clipping, adds a dismissible tabs intro and refreshed help entry point, aligns sub-agent task rows with v2 sessions, restyles the revert dock, and adds a v2 free-model selector.
+- **Adoption signal:** GitHub stars moved from 182,320 to 184,123 (+1,803). Star references in this file now use the new 184,123 baseline.
+- **Community health:** Open issues decreased from 5,295 to 4,652 (-643). This is a strong backlog-burn/triage signal, though closure quality should still be checked.
+
 ### 1. How Is This Tool Useful?
 
-OpenCode's explosive growth (182K+ GitHub stars in just over a year) makes it one of the most adopted AI coding tools of 2025–2026. The appeal is clear: a polished terminal UI (TUI) that provides a rich interactive experience without leaving the terminal. Unlike bare CLI tools (Claude Code, Aider) that use simple text interfaces, OpenCode's TUI includes a file browser, chat panel, diff viewer, and session manager — giving terminal lovers a near-IDE experience without leaving their preferred environment.
+OpenCode's explosive growth (184K+ GitHub stars in just over a year) makes it one of the most adopted AI coding tools of 2025–2026. The appeal is clear: a polished terminal UI (TUI) that provides a rich interactive experience without leaving the terminal. Unlike bare CLI tools (Claude Code, Aider) that use simple text interfaces, OpenCode's TUI includes a file browser, chat panel, diff viewer, and session manager — giving terminal lovers a near-IDE experience without leaving their preferred environment.
 
 The Go-native architecture provides tangible benefits: instant startup, minimal memory usage, and single-binary distribution. Compared to Node.js-based CLI tools (Claude Code, Gemini CLI) that require npm and have slower startup, OpenCode's Go binary launches instantly and uses far less RAM. For developers who live in the terminal and value speed, this matters. The cross-platform compilation means the same binary works on macOS, Linux, and Windows without dependencies.
 
@@ -109,7 +115,7 @@ The project's explosive growth brings growing pains. With 7,200+ open issues, Op
 
 The TUI, while polished, has inherent limitations compared to full IDE experiences. There's no inline completion (ghost text), no visual code navigation (go-to-definition in a sidebar), and no rich diff viewing with syntax highlighting at the level of VS Code. Developers who split their time between terminal and IDE may find the TUI insufficient for complex tasks that benefit from visual aids.
 
-As a very new project (created April 2025), OpenCode's long-term sustainability is unproven. While 182K+ stars is impressive, open-source projects can lose momentum. The project is maintained by SST (a well-known web development framework team), which provides some confidence, but the AI tooling space is extremely competitive. Developers should have a migration plan in case the project loses momentum.
+As a very new project (created April 2025), OpenCode's long-term sustainability is unproven. While 184K+ stars is impressive, open-source projects can lose momentum. The project is maintained by SST (a well-known web development framework team), which provides some confidence, but the AI tooling space is extremely competitive. Developers should have a migration plan in case the project loses momentum.
 
 ### 3. Limitations
 
@@ -146,7 +152,7 @@ OpenCode's unique advantages:
 - **Go-native performance**: Fastest startup and lowest resource usage
 - **75+ model providers**: Most model options for a TUI-based tool
 - **LSP integration**: Code intelligence within the terminal
-- **182K+ star community**: Massive community and rapid innovation
+- **184K+ star community**: Massive community and rapid innovation
 
 ### 7. How Does This Tool Rank Compared to Others?
 
@@ -159,7 +165,7 @@ OpenCode's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. [sst/opencode](https://github.com/sst/opencode) has **181,716 stars**, 22,447 forks, 7,211 open issues. Last pushed: July 2, 2026. Created April 2025 — the fastest-growing AI coding tool by GitHub stars.
+**Development activity**: Extremely active. [sst/opencode](https://github.com/sst/opencode) has **184,123 stars**, 22,447 forks, 4,652 open issues. Last pushed: July 9, 2026. Created April 2025 — the fastest-growing AI coding tool by GitHub stars.
 
 **Areas for improvement:**
 - Issue triage and resolution (7,200+ open issues)
@@ -172,7 +178,7 @@ OpenCode's unique advantages:
 
 ### 9. Official Maintainer Contacts
 
-- **GitHub**: [sst/opencode](https://github.com/sst/opencode) — 182K+ stars
+- **GitHub**: [sst/opencode](https://github.com/sst/opencode) — 184K+ stars
 - **Organization**: SST (https://sst.dev)
 - **Discord**: SST/OpenCode Discord (link in GitHub README)
 - **Docs**: Documentation in GitHub repository

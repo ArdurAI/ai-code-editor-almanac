@@ -98,6 +98,10 @@ Zed is a high-performance code editor built in Rust by the creators of Atom and 
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `v1.10.0` (2026-07-08): adds llama.cpp as a language-model provider, adds a `git.inline_blame.location` setting, disables format-on-save by default, moves LLM providers/external agents/MCP servers into the settings editor, and includes agent/UI bug fixes.
+
 ### 1. How Is This Tool Useful?
 
 Zed's primary value is raw performance. Built in Rust with a custom GPU-accelerated rendering framework (GPUI), Zed delivers an editing experience that feels instant — sub-millisecond input latency, 120fps+ rendering, and the ability to open multi-gigabyte files without hesitation. For developers who've felt the sluggishness of Electron-based editors (VS Code, Cursor), Zed is a revelation. The performance isn't just about speed; it's about flow — when the editor never gets in your way, you stay in the zone.

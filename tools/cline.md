@@ -97,6 +97,10 @@ Cline is a VS Code extension that provides autonomous AI coding capabilities wit
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `cli-v3.0.39` (2026-07-09): adds Cline free models in the ClinePass picker, removes the retired GLM 5.1 model, fixes OpenAI Codex metadata, makes `str_replace` diffs accurate, preserves canonical session history during compaction, and adds daemon/client telemetry identity updates.
+
 ### 1. How Is This Tool Useful?
 
 Cline has become the dominant open-source AI coding agent for VS Code, with 5M+ installs and 64K+ GitHub stars. Its primary value is providing Cursor-like agentic coding capabilities without the subscription — you bring your own API key and pay the model provider directly. This makes it the go-to choice for developers who want autonomous AI coding without vendor lock-in or monthly fees. The agent loop is capable: given a task, Cline reads relevant files, makes changes, runs commands, verifies results, and iterates until the task is complete.

@@ -95,6 +95,10 @@ Gemini CLI is Google's terminal-native AI coding agent powered by Gemini models.
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `v0.50.0` (2026-07-08): adds tool-registry discovery and hardens release verification by ignoring install scripts, preventing workspace binary shadowing, blocking bad npm releases, and handling promote-job crashes.
+
 ### 1. How Is This Tool Useful?
 
 Gemini CLI's most compelling feature is its free tier: 1,000 requests per day with just a Google account. This makes it the most accessible CLI coding agent — no API key, no subscription, no credit card required. For students, hobbyists, and developers in cost-sensitive environments, Gemini CLI removes the financial barrier to AI-assisted coding entirely. The 1M-token context window means even very large codebases can be processed in a single request, reducing the need for careful context management.
