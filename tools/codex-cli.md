@@ -96,6 +96,11 @@ Codex CLI is OpenAI's terminal-native AI coding agent, written in Rust. Key arch
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-10
+
+- **Latest release:** `rust-v0.144.1` (2026-07-09): bugfix release for standalone installer robustness when GitHub returns compact/reordered release metadata, macOS package exposure of the code-mode host, and code-mode fallback to the embedded runtime when the companion host binary is unavailable.
+- **Community health:** Open issues increased from 8,561 to 8,764 (+203). This is a material backlog expansion; monitor installer/code-mode regressions and maintainer triage velocity.
+
 ### Daily monitoring update — 2026-07-09
 
 - **Latest release:** `rust-v0.143.0` (2026-07-08): enables remote plugins by default with richer catalog/npm marketplace metadata, adds macOS/Windows system-proxy routing for auth and Responses API traffic, adds manual daemon pairing, expands Bedrock model support, and improves MCP/session-auth behavior.
@@ -167,7 +172,7 @@ Codex CLI's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. [openai/codex](https://github.com/openai/codex) has **96,550 stars**, 14,105 forks, 8,561 open issues. Last pushed: July 9, 2026. Created April 2025 — explosive growth (96.5K stars in ~14 months).
+**Development activity**: Extremely active. [openai/codex](https://github.com/openai/codex) has **96,550 stars**, 14,105 forks, 8,764 open issues. Last pushed: July 10, 2026. Created April 2025 — explosive growth (96.5K stars in ~14 months).
 
 **Areas for improvement:**
 - Multi-model support (Claude, Gemini, local models)

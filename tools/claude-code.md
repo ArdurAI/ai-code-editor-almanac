@@ -94,6 +94,11 @@ Claude Code is a terminal-native AI agent that runs in your development environm
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-10
+
+- **Latest release:** `v2.1.206` (2026-07-10): adds `/cd` directory suggestions, a `/doctor` check for trimming checked-in `CLAUDE.md` files, broader `/commit-push-pr` push auto-allow behavior, public gateway login support, safer external-worktree confirmation, and background-agent auto-upgrade after CLI updates. Fixes include expired-login model errors, startup keyboard input for `--resume`/`--continue`, MCP timeout/OAuth/permission-prompt edge cases, model-picker mispricing, daemon roster cleanup, and several desktop/Windows UI issues.
+- **Community health:** Open issues increased from 10,822 to 10,914 (+92). This is another material backlog increase on top of yesterday's spike; watch regression triage and support load.
+
 ### Daily monitoring update — 2026-07-09
 
 - **Latest release:** `v2.1.205` (2026-07-08): adds an auto-mode guard against session transcript tampering; fixes invalid `--json-schema` handling, lost messages at `--max-turns`, Windows worktree deletion safety, background-agent state display, PR linking, MCP import edge cases, plugin LSP fallback, and Windows launch-directory crashes.
@@ -167,7 +172,7 @@ Claude Code's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. Anthropic's Claude Code repo (anthropics/claude-code) has **137K+ stars** and 21K+ forks on GitHub — one of the fastest-growing repos ever. 10,822 open issues reflect massive adoption. Updated daily.
+**Development activity**: Extremely active. Anthropic's Claude Code repo (anthropics/claude-code) has **137K+ stars** and 21K+ forks on GitHub — one of the fastest-growing repos ever. 10,914 open issues reflect massive adoption. Updated daily.
 
 **Areas for improvement:**
 - Multi-model support (currently Claude-only)

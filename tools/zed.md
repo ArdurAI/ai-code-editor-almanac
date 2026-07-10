@@ -98,6 +98,10 @@ Zed is a high-performance code editor built in Rust by the creators of Atom and 
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-10
+
+- **Latest release:** `v1.10.1` (2026-07-09): adds OpenAI-provider support for GPT 5.6 Sol/Terra/Luna and fixes CLI workspace restoration when `cli_default_open_behavior: new_window` is set and no path is provided.
+
 ### Daily monitoring update — 2026-07-09
 
 - **Latest release:** `v1.10.0` (2026-07-08): adds llama.cpp as a language-model provider, adds a `git.inline_blame.location` setting, disables format-on-save by default, moves LLM providers/external agents/MCP servers into the settings editor, and includes agent/UI bug fixes.

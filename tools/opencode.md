@@ -95,6 +95,10 @@ OpenCode is a terminal-native AI coding agent with a TUI (text user interface). 
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-10
+
+- **Latest release:** `v1.17.18` (2026-07-09): fixes crashes and bad pricing data when GitHub Copilot returns models with a zero billing batch size, and adds a model-specific system prompt for Meta Muse Spark.
+
 ### Daily monitoring update — 2026-07-09
 
 - **Latest release:** `v1.17.17` (2026-07-09): improves Meta reasoning-variant/provider handling, fixes desktop model-selector text clipping, adds a dismissible tabs intro and refreshed help entry point, aligns sub-agent task rows with v2 sessions, restyles the revert dock, and adds a v2 free-model selector.
