@@ -94,6 +94,11 @@ Claude Code is a terminal-native AI agent that runs in your development environm
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-12
+
+- **Latest release:** `v2.1.207` (2026-07-11): auto mode is now available without `CLAUDE_CODE_ENABLE_AUTO_MODE` opt-in on Bedrock, Vertex AI, and Foundry; fixes include terminal freezes/keystroke lag on very long streamed responses, non-interactive remote managed-settings consent recording, false prompt-injection warnings, custom launcher overwrites by the auto-updater, `/dev/null` compound-command permission prompts, transcript jumps, sparse worktree config cleanup, malformed glob handling, agent-team mailbox crash loops, background-session resume/status display, Remote Control status recovery, Deep Research source host labels, and repeated Bedrock AWS SSO prompts.
+- **Community health:** Open issues increased from 10,914 to 11,143 (+229). This is a material backlog increase; treat support and regression triage load as a near-term adoption-risk signal.
+
 ### Daily monitoring update — 2026-07-10
 
 - **Latest release:** `v2.1.206` (2026-07-10): adds `/cd` directory suggestions, a `/doctor` check for trimming checked-in `CLAUDE.md` files, broader `/commit-push-pr` push auto-allow behavior, public gateway login support, safer external-worktree confirmation, and background-agent auto-upgrade after CLI updates. Fixes include expired-login model errors, startup keyboard input for `--resume`/`--continue`, MCP timeout/OAuth/permission-prompt edge cases, model-picker mispricing, daemon roster cleanup, and several desktop/Windows UI issues.
@@ -172,7 +177,7 @@ Claude Code's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. Anthropic's Claude Code repo (anthropics/claude-code) has **137K+ stars** and 21K+ forks on GitHub — one of the fastest-growing repos ever. 10,914 open issues reflect massive adoption. Updated daily.
+**Development activity**: Extremely active. Anthropic's Claude Code repo (anthropics/claude-code) has **137K+ stars** and 21K+ forks on GitHub — one of the fastest-growing repos ever. 11,143 open issues reflect massive adoption. Updated daily.
 
 **Areas for improvement:**
 - Multi-model support (currently Claude-only)

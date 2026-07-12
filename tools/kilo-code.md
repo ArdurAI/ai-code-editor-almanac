@@ -90,6 +90,10 @@ Kilo Code is an open-source AI coding agent that builds on the Cline/Roo Code li
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-12
+
+- **Latest release:** `jetbrains/v7.0.4` (2026-07-10): fixes Windows shutdown behavior by stopping orphaned Kilo Core processes when the IDE closes and improving JetBrains CLI shutdown ordering so the process tree is killed before streams close.
+
 ### Daily monitoring update — 2026-07-09
 
 - **Latest release:** `v7.4.5` (2026-07-09): release notes list no notable user-facing changes; recorded as a version freshness marker only.

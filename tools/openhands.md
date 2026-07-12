@@ -94,6 +94,10 @@ OpenHands (formerly OpenDevin) is an open-source autonomous AI software engineer
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-12
+
+- **Latest release:** `cloud-1.46.0` (2026-07-10): enriches final archive manifests and removes initial snapshots, makes enterprise BYOR key-alias patterns configurable, and fixes budget-alert SMTP guidance, conversation cost-event cascade deletes, database pooling behavior, and observability context metadata preservation.
+
 ### Daily monitoring update — 2026-07-10
 
 - **Latest release:** `cloud-1.45.1` (2026-07-09): cloud maintenance release; the monitored notes only call out release-plumbing for 1.11.0 and do not include a product-level feature change.
