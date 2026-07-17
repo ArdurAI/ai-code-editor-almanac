@@ -94,6 +94,10 @@ Kimi CLI is Moonshot AI's terminal-native AI coding agent. Key architectural ele
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `1.49.0` (2026-07-16): Fixes Kimi completion-budget calculation to use remaining context, preserves empty-string `reasoning_content` as a `ThinkPart`, and addresses a Kosong streaming/send edge case.
+
 ### 1. How Is This Tool Useful?
 
 Kimi CLI's standout feature is Agent Swarm — the ability to spawn up to 300 parallel sub-agents. This is an order of magnitude beyond what other agents offer (Claude Code's Agent Teams typically handle a handful of sub-agents). For tasks that can be decomposed into many independent sub-tasks — running tests across 300 modules, generating documentation for hundreds of files, or parallelizing a large-scale refactoring — Agent Swarm offers throughput unmatched by any other tool.
@@ -204,3 +208,7 @@ Kimi CLI's unique advantages:
 ---
 
 *Licensed under CC BY 4.0 — ArdurAI / AI Code Editor Almanac*
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

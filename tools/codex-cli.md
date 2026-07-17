@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-OpenAI's open-source CLI coding agent; 96.5K+ GitHub stars; Rust-native with sandboxed execution; included in ChatGPT subscriptions; 240+ tok/s streaming.
+OpenAI's open-source CLI coding agent; 99K+ GitHub stars; Rust-native with sandboxed execution; included in ChatGPT subscriptions; 240+ tok/s streaming.
 
 ## Architecture
 
@@ -96,6 +96,12 @@ Codex CLI is OpenAI's terminal-native AI coding agent, written in Rust. Key arch
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `rust-v0.144.5` (2026-07-16): Hardens dangerous-command detection, including more forced `rm` forms, and returns clearer rejection reasons when commands are denied.
+- **Adoption signal:** GitHub stars moved from 97,250 to 98,990 (+1,740). Track 98,990 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 9,013 to 9,885 (+872). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
+
 ### Daily monitoring update — 2026-07-12
 
 - **Community health:** Open issues increased from 8,764 to 9,013 (+249). This is a material backlog expansion; monitor installer, sandbox, and code-mode regressions plus maintainer triage velocity.
@@ -176,7 +182,7 @@ Codex CLI's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. [openai/codex](https://github.com/openai/codex) has **96,550 stars**, 14,105 forks, 9,013 open issues. Last pushed: July 11, 2026. Created April 2025 — explosive growth (96.5K stars in ~14 months).
+**Development activity**: Extremely active. [openai/codex](https://github.com/openai/codex) has **98,990 stars**, 14,105 forks, 9,885 open issues. Last pushed: July 17, 2026. Created April 2025 — explosive growth (99K stars in ~14 months).
 
 **Areas for improvement:**
 - Multi-model support (Claude, Gemini, local models)
@@ -190,7 +196,7 @@ Codex CLI's unique advantages:
 ### 9. Official Maintainer Contacts
 
 - **Company**: OpenAI — https://openai.com
-- **GitHub**: [openai/codex](https://github.com/openai/codex) — 96.5K+ stars
+- **GitHub**: [openai/codex](https://github.com/openai/codex) — 99K+ stars
 - **Twitter/X**: [@OpenAI](https://twitter.com/OpenAI), [@OpenAIDevs](https://twitter.com/OpenAIDevs)
 - **Discord**: OpenAI Developer Community
 - **Docs**: https://github.com/openai/codex#readme
@@ -223,3 +229,7 @@ Codex CLI's unique advantages:
 ---
 
 *Licensed under CC BY 4.0 — ArdurAI / AI Code Editor Almanac*
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

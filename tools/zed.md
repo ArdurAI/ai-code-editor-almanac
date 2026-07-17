@@ -98,6 +98,10 @@ Zed is a high-performance code editor built in Rust by the creators of Atom and 
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `v1.11.3` (2026-07-15): Adds dedicated Staged/Unstaged Changes multibuffers for hunk review/stage/unstage/restore, improves Git Graph columns and Markdown-rendered full commit messages, and adds a project-symbols preview pane.
+
 ### Daily monitoring update — 2026-07-12
 
 - **Latest release:** `v1.10.2` (2026-07-10): the agent adds GPT 5.6 Sol and GPT 5.6 Terra for ChatGPT subscriptions; GPT 5.6 Luna is still unavailable to Zed until OpenAI enables third-party access.
@@ -219,3 +223,7 @@ Zed's unique advantages:
 ---
 
 *Licensed under CC BY 4.0 — ArdurAI / AI Code Editor Almanac*
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

@@ -95,6 +95,10 @@ Gemini CLI is Google's terminal-native AI coding agent powered by Gemini models.
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `v0.51.0` (2026-07-16): Carries the v0.50.0-preview.1 changelog into the release train, fixes a `no_proxy` test, and includes the normal nightly-to-release version bump hygiene.
+
 ### Daily monitoring update — 2026-07-09
 
 - **Latest release:** `v0.50.0` (2026-07-08): adds tool-registry discovery and hardens release verification by ignoring install scripts, preventing workspace binary shadowing, blocking bad npm releases, and handling promote-job crashes.
@@ -210,3 +214,7 @@ Gemini CLI's unique advantages:
 ---
 
 *Licensed under CC BY 4.0 — ArdurAI / AI Code Editor Almanac*
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

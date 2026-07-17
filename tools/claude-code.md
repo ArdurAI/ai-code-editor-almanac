@@ -94,6 +94,12 @@ Claude Code is a terminal-native AI agent that runs in your development environm
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `v2.1.212` (2026-07-17): `/fork` now copies the conversation into a new background session while the old in-session subagent path becomes `/subtask`; adds `claude auto-mode reset` to restore default auto-mode configuration with confirmation.
+- **Adoption signal:** GitHub stars moved from 137,486 to 138,034 (+548). Track 138,034 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 11,143 to 11,966 (+823). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
+
 ### Daily monitoring update — 2026-07-12
 
 - **Latest release:** `v2.1.207` (2026-07-11): auto mode is now available without `CLAUDE_CODE_ENABLE_AUTO_MODE` opt-in on Bedrock, Vertex AI, and Foundry; fixes include terminal freezes/keystroke lag on very long streamed responses, non-interactive remote managed-settings consent recording, false prompt-injection warnings, custom launcher overwrites by the auto-updater, `/dev/null` compound-command permission prompts, transcript jumps, sparse worktree config cleanup, malformed glob handling, agent-team mailbox crash loops, background-session resume/status display, Remote Control status recovery, Deep Research source host labels, and repeated Bedrock AWS SSO prompts.
@@ -177,7 +183,7 @@ Claude Code's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. Anthropic's Claude Code repo (anthropics/claude-code) has **137K+ stars** and 21K+ forks on GitHub — one of the fastest-growing repos ever. 11,143 open issues reflect massive adoption. Updated daily.
+**Development activity**: Extremely active. Anthropic's Claude Code repo (anthropics/claude-code) has **138K+ stars** and 21K+ forks on GitHub — one of the fastest-growing repos ever. 11,966 open issues reflect massive adoption. Updated daily.
 
 **Areas for improvement:**
 - Multi-model support (currently Claude-only)
@@ -191,7 +197,7 @@ Claude Code's unique advantages:
 ### 9. Official Maintainer Contacts
 
 - **Company**: Anthropic — https://anthropic.com
-- **GitHub**: [anthropics/claude-code](https://github.com/anthropics/claude-code) — 137K+ stars
+- **GitHub**: [anthropics/claude-code](https://github.com/anthropics/claude-code) — 138K+ stars
 - **Twitter/X**: [@AnthropicAI](https://twitter.com/AnthropicAI)
 - **Discord**: Anthropic Discord community
 - **Docs**: https://docs.anthropic.com/claude-code
@@ -226,3 +232,7 @@ Claude Code's unique advantages:
 ---
 
 *Licensed under CC BY 4.0 — ArdurAI / AI Code Editor Almanac*
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

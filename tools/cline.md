@@ -97,6 +97,10 @@ Cline is a VS Code extension that provides autonomous AI coding capabilities wit
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `cli-v3.0.44` (2026-07-17): Improves max-output-token handling across gateway routing, OpenAI vendor paths, and reasoning providers; fixes UTF-8 BOM parsing for frontmatter and configuration files saved by Windows editors.
+
 ### Daily monitoring update — 2026-07-12
 
 - **Latest release:** `v4.0.8` (2026-07-11): expands the GCP Vertex provider with additional models and adds a free-form model entry in the model dropdown for custom Vertex deployments.
@@ -220,3 +224,7 @@ Cline is the top-ranked open-source VS Code agent by installs and stars.
 ---
 
 *Licensed under CC BY 4.0 — ArdurAI / AI Code Editor Almanac*
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

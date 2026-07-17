@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-184.9K+ GitHub stars; a terminal-based AI coding agent with TUI, 75+ LLM provider support, and Go-based architecture — one of the fastest-growing developer tools of 2025–2026.
+186.7K+ GitHub stars; a terminal-based AI coding agent with TUI, 75+ LLM provider support, and Go-based architecture — one of the fastest-growing developer tools of 2025–2026.
 
 ## Architecture
 
@@ -30,7 +30,7 @@ OpenCode is a terminal-native AI coding agent with a TUI (text user interface). 
 
 ## Key features
 
-- 184.9K+ GitHub stars — one of the most starred developer tools ever
+- 186.7K+ GitHub stars — one of the most starred developer tools ever
 - 75+ LLM provider support (BYOK)
 - Rich TUI with file browser, chat, and diff viewer
 - Go-native (fast, low resource usage, cross-platform)
@@ -60,7 +60,7 @@ OpenCode is a terminal-native AI coding agent with a TUI (text user interface). 
 **Sharp edges:**
 - TUI may feel limited compared to full IDE experiences
 - As a very new project (April 2025), rapid changes can introduce instability
-- 4,658 open issues suggest growing pains with rapid adoption
+- 4,750 open issues suggest growing pains with rapid adoption
 - Documentation may lag behind features
 
 ## Cost model
@@ -89,11 +89,17 @@ OpenCode is a terminal-native AI coding agent with a TUI (text user interface). 
 - **License:** MIT
 - **Region:** Global
 - **Tier:** A
-- **Notes:** 184.9K+ stars; 75+ LLM providers; Go-based
+- **Notes:** 186.7K+ stars; 75+ LLM providers; Go-based
 
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `v1.18.3` (2026-07-16): Core adds an Up Arrow shortcut to close the subagent picker; desktop fixes home-page scrolling/sticky headers/session-list behavior and includes WSL startup-readiness fixes.
+- **Adoption signal:** GitHub stars moved from 184,883 to 186,699 (+1,816). Track 186,699 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 4,658 to 4,750 (+92). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
 
 ### Daily monitoring update — 2026-07-12
 
@@ -111,7 +117,7 @@ OpenCode is a terminal-native AI coding agent with a TUI (text user interface). 
 
 ### 1. How Is This Tool Useful?
 
-OpenCode's explosive growth (184.9K+ GitHub stars in just over a year) makes it one of the most adopted AI coding tools of 2025–2026. The appeal is clear: a polished terminal UI (TUI) that provides a rich interactive experience without leaving the terminal. Unlike bare CLI tools (Claude Code, Aider) that use simple text interfaces, OpenCode's TUI includes a file browser, chat panel, diff viewer, and session manager — giving terminal lovers a near-IDE experience without leaving their preferred environment.
+OpenCode's explosive growth (186.7K+ GitHub stars in just over a year) makes it one of the most adopted AI coding tools of 2025–2026. The appeal is clear: a polished terminal UI (TUI) that provides a rich interactive experience without leaving the terminal. Unlike bare CLI tools (Claude Code, Aider) that use simple text interfaces, OpenCode's TUI includes a file browser, chat panel, diff viewer, and session manager — giving terminal lovers a near-IDE experience without leaving their preferred environment.
 
 The Go-native architecture provides tangible benefits: instant startup, minimal memory usage, and single-binary distribution. Compared to Node.js-based CLI tools (Claude Code, Gemini CLI) that require npm and have slower startup, OpenCode's Go binary launches instantly and uses far less RAM. For developers who live in the terminal and value speed, this matters. The cross-platform compilation means the same binary works on macOS, Linux, and Windows without dependencies.
 
@@ -119,17 +125,17 @@ The 75+ LLM provider support gives developers maximum flexibility. Unlike Claude
 
 ### 2. Gotchas of Using This Tool
 
-The project's explosive growth brings growing pains. With 4,658 open issues, OpenCode is clearly experiencing the challenges of rapid adoption — bug reports pile up faster than they can be addressed, documentation lags behind features, and breaking changes occur frequently. Developers adopting OpenCode should be prepared for a fast-moving project where today's workflow may change tomorrow. Pinning to specific versions and monitoring changelogs is essential.
+The project's explosive growth brings growing pains. With 4,750 open issues, OpenCode is clearly experiencing the challenges of rapid adoption — bug reports pile up faster than they can be addressed, documentation lags behind features, and breaking changes occur frequently. Developers adopting OpenCode should be prepared for a fast-moving project where today's workflow may change tomorrow. Pinning to specific versions and monitoring changelogs is essential.
 
 The TUI, while polished, has inherent limitations compared to full IDE experiences. There's no inline completion (ghost text), no visual code navigation (go-to-definition in a sidebar), and no rich diff viewing with syntax highlighting at the level of VS Code. Developers who split their time between terminal and IDE may find the TUI insufficient for complex tasks that benefit from visual aids.
 
-As a very new project (created April 2025), OpenCode's long-term sustainability is unproven. While 184K+ stars is impressive, open-source projects can lose momentum. The project is maintained by SST (a well-known web development framework team), which provides some confidence, but the AI tooling space is extremely competitive. Developers should have a migration plan in case the project loses momentum.
+As a very new project (created April 2025), OpenCode's long-term sustainability is unproven. While 186.7K+ stars is impressive, open-source projects can lose momentum. The project is maintained by SST (a well-known web development framework team), which provides some confidence, but the AI tooling space is extremely competitive. Developers should have a migration plan in case the project loses momentum.
 
 ### 3. Limitations
 
 - **TUI limitations**: No inline completions, limited visual navigation
 - **Rapid changes**: Breaking changes frequent; stability not guaranteed
-- **Issue backlog**: 4,658 open issues indicate growing pains
+- **Issue backlog**: 4,750 open issues indicate growing pains
 - **Documentation**: May lag behind rapid feature development
 - **No IDE integration**: Terminal-only; no VS Code or JetBrains extension
 - **Agent maturity**: Newer agent loop; less proven than Claude Code or Aider
@@ -160,7 +166,7 @@ OpenCode's unique advantages:
 - **Go-native performance**: Fastest startup and lowest resource usage
 - **75+ model providers**: Most model options for a TUI-based tool
 - **LSP integration**: Code intelligence within the terminal
-- **184.9K+ star community**: Massive community and rapid innovation
+- **186.7K+ star community**: Massive community and rapid innovation
 
 ### 7. How Does This Tool Rank Compared to Others?
 
@@ -173,10 +179,10 @@ OpenCode's unique advantages:
 
 ### 8. How Can This Tool Be Improved? How Active Is Development?
 
-**Development activity**: Extremely active. [sst/opencode](https://github.com/sst/opencode) has **184,883 stars**, 22,447 forks, 4,658 open issues. Last pushed: July 12, 2026. Created April 2025 — the fastest-growing AI coding tool by GitHub stars.
+**Development activity**: Extremely active. [sst/opencode](https://github.com/sst/opencode) has **186,699 stars**, 22,447 forks, 4,750 open issues. Last pushed: July 17, 2026. Created April 2025 — the fastest-growing AI coding tool by GitHub stars.
 
 **Areas for improvement:**
-- Issue triage and resolution (4,658 open issues)
+- Issue triage and resolution (4,750 open issues)
 - Documentation to match feature velocity
 - Stability and versioning strategy
 - Inline completion support
@@ -186,7 +192,7 @@ OpenCode's unique advantages:
 
 ### 9. Official Maintainer Contacts
 
-- **GitHub**: [sst/opencode](https://github.com/sst/opencode) — 184K+ stars
+- **GitHub**: [sst/opencode](https://github.com/sst/opencode) — 186.7K+ stars
 - **Organization**: SST (https://sst.dev)
 - **Discord**: SST/OpenCode Discord (link in GitHub README)
 - **Docs**: Documentation in GitHub repository
@@ -221,3 +227,7 @@ OpenCode's unique advantages:
 ---
 
 *Licensed under CC BY 4.0 — ArdurAI / AI Code Editor Almanac*
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*
