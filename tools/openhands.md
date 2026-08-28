@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-81K+ GitHub stars (formerly OpenDevin); the leading open-source autonomous AI software engineering agent with Docker-sandboxed execution, multi-model support, and SWE-bench leading performance.
+85K+ GitHub stars (formerly OpenDevin); the leading open-source autonomous AI software engineering agent with Docker-sandboxed execution, multi-model support, and SWE-bench leading performance.
 
 ## Architecture
 
@@ -29,7 +29,7 @@ OpenHands (formerly OpenDevin) is an open-source autonomous AI software engineer
 
 ## Key features
 
-- 81K+ stars — most popular open-source autonomous coding agent
+- 85K+ stars — most popular open-source autonomous coding agent
 - Docker-sandboxed execution (shell, browser, file system)
 - BYOK with Claude, GPT, Gemini, and local model support
 - Built-in SWE-bench evaluation harness
@@ -88,11 +88,18 @@ OpenHands (formerly OpenDevin) is an open-source autonomous AI software engineer
 - **License:** MIT
 - **Region:** Global
 - **Tier:** A
-- **Notes:** 81K+ stars; formerly OpenDevin; Docker sandboxed
+- **Notes:** 85K+ stars; formerly OpenDevin; Docker sandboxed
 
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-08-28
+
+- **Latest release:** `v1.16.0` (2026-08-27): 1.16.0 (2026-08-27); Features; feat(settings): select supported LLM providers by @keeltrace in.
+- **Adoption signal:** GitHub stars moved from 81,055 to 85,331 (+4276). Track 85,331 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 363 to 588 (+225). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
+- **License update:** GitHub reports the repository license changed from `NOASSERTION` to `MIT`; metadata in this entry was updated accordingly.
 
 ### Daily monitoring update — 2026-07-17
 
@@ -140,7 +147,7 @@ The Web UI, while functional, is less polished than commercial alternatives like
 
 ### 4. How Secure Is This Tool?
 
-- **License**: MIT (fully open source; auditable)
+- **License**: MIT
 - **Docker sandboxing**: Strong isolation — agents cannot access host system beyond configured mounts
 - **BYOK**: Code goes to your chosen model provider; OpenHands doesn't intermediate
 - **Local model support**: Ollama integration for fully local operation

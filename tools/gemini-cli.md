@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-106K+ GitHub stars; Google's open-source CLI agent with 1M-token context, 1,000 requests/day free tier, and full Gemini model integration.
+107K+ GitHub stars; Google's open-source CLI agent with 1M-token context, 1,000 requests/day free tier, and full Gemini model integration.
 
 ## Architecture
 
@@ -94,6 +94,12 @@ Gemini CLI is Google's terminal-native AI coding agent powered by Gemini models.
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-08-28
+
+- **Latest release:** `v0.57.0` (2026-08-25): fix(core): dynamically resolve Cloud Workstations proxy redirect URI for OAuth flows by @amelidev in; fix(core): resolve swallowed directory mismatch in IDE connections by @amelidev in; Feat/eval validate by @ved015 in.
+- **Adoption signal:** GitHub stars moved from 106,027 to 106,719 (+692). Track 106,719 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 1,387 to 870 (-517). This is a material backlog reduction; it is a positive triage/maintenance signal, but verify whether it came from closures, migrations, or issue pruning.
 
 ### Daily monitoring update — 2026-07-17
 

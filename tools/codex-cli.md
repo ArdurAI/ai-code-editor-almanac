@@ -96,6 +96,12 @@ Codex CLI is OpenAI's terminal-native AI coding agent, written in Rust. Key arch
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-08-28
+
+- **Latest release:** `rust-v0.150.1` (2026-08-27): Bug Fixes; Remote compaction now counts retained images toward its token budget by default, trimming older images as needed. (#41003); 41003 Backport retained-image compaction budgeting to 0.150 @rhan-oai.
+- **Adoption signal:** GitHub stars moved from 98,990 to 119,255 (+20265). Track 119,255 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 9,885 to 14,149 (+4264). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
+
 ### Daily monitoring update — 2026-07-17
 
 - **Latest release:** `rust-v0.144.5` (2026-07-16): Hardens dangerous-command detection, including more forced `rm` forms, and returns clearer rejection reasons when commands are denied.

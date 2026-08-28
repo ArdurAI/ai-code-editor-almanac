@@ -98,6 +98,12 @@ Zed is a high-performance code editor built in Rust by the creators of Atom and 
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-08-28
+
+- **Latest release:** `v1.17.2` (2026-08-26): This week's release includes tabular data previews for CSV, TSV, PSV, and SSV files with sortable and resizable columns, value-based row filtering, and right-click copying; new Git blame and stashing actions; and lower memory use when opening large files.
+- **Adoption signal:** GitHub stars moved from 87,124 to 89,336 (+2212). Track 89,336 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 3,335 to 3,284 (-51). This is a material backlog reduction; it is a positive triage/maintenance signal, but verify whether it came from closures, migrations, or issue pruning.
+
 ### Daily monitoring update — 2026-07-17
 
 - **Latest release:** `v1.11.3` (2026-07-15): Adds dedicated Staged/Unstaged Changes multibuffers for hunk review/stage/unstage/restore, improves Git Graph columns and Markdown-rendered full commit messages, and adds a project-symbols preview pane.

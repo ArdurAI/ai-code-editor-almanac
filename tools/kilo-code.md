@@ -90,6 +90,12 @@ Kilo Code is an open-source AI coding agent that builds on the Cline/Roo Code li
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-08-28
+
+- **Latest release:** `jetbrains/v7.1.0` (2026-08-27): Add the JetBrains Agent Manager beta for creating, opening, organizing, renaming, deleting, and tracking worktree-based tasks and their sessions from the IDE; Show Agent Manager worktree activity, changes, ahead/behind, pull request, failure, and attention badges with clearer row actions, menus, tooltips, and drag-and-drop reordering.
+- **Adoption signal:** GitHub stars moved from 26,323 to 27,047 (+724). Track 27,047 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 705 to 590 (-115). This is a material backlog reduction; it is a positive triage/maintenance signal, but verify whether it came from closures, migrations, or issue pruning.
+
 ### Daily monitoring update — 2026-07-17
 
 - **Latest release:** `v7.4.11` (2026-07-16): Improves project-memory activity in VS Code with a task-header menu, quick actions, and optional verbose detail.

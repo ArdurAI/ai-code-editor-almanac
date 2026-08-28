@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-9.1K+ GitHub stars; Moonshot AI's open-source CLI agent powered by the K2 model series with Agent Swarm (up to 300 parallel sub-agents) — the leading Chinese AI coding agent.
+11K+ GitHub stars; Moonshot AI's open-source CLI agent powered by the K2 model series with Agent Swarm (up to 300 parallel sub-agents) — the leading Chinese AI coding agent.
 
 ## Architecture
 
@@ -93,6 +93,11 @@ Kimi CLI is Moonshot AI's terminal-native AI coding agent. Key architectural ele
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-08-28
+
+- **Adoption signal:** GitHub stars moved from 9,194 to 11,280 (+2086). Track 11,280 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 763 to 838 (+75). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
 
 ### Daily monitoring update — 2026-07-17
 

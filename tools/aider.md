@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-47K+ GitHub stars; the original AI terminal pair-programmer with Git-native diffs, tree-sitter code analysis, and model-agnostic support for 50+ LLMs.
+48K+ GitHub stars; the original AI terminal pair-programmer with Git-native diffs, tree-sitter code analysis, and model-agnostic support for 50+ LLMs.
 
 ## Architecture
 
@@ -90,11 +90,16 @@ Aider is a terminal-based AI pair-programmer that works directly with your local
 - **License:** Apache-2.0
 - **Region:** Global
 - **Tier:** A
-- **Notes:** 47K+ stars; Git-aware diffs; model-agnostic
+- **Notes:** 48K+ stars; Git-aware diffs; model-agnostic
 
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-08-28
+
+- **Adoption signal:** GitHub stars moved from 47,448 to 48,538 (+1090). Track 48,538 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 1,749 to 1,827 (+78). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
 
 ### 1. How Is This Tool Useful?
 
@@ -207,3 +212,7 @@ Aider's unique advantages:
 ---
 
 *Licensed under CC BY 4.0 — ArdurAI / AI Code Editor Almanac*
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

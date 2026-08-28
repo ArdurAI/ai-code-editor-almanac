@@ -96,6 +96,10 @@ Continue is an open-source extension for VS Code and JetBrains IDEs that provide
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-08-28
+
+- **Adoption signal:** GitHub stars moved from 34,925 to 35,648 (+723). Track 35,648 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+
 ### 1. How Is This Tool Useful?
 
 Continue fills a unique niche: open-source AI coding assistance that works within your existing IDE (VS Code or JetBrains) without requiring a separate editor or subscription. For teams that have standardized on VS Code or IntelliJ and want AI assistance without vendor lock-in, Continue is the most mature option. It provides the full trifecta — inline completions, codebase-aware chat, and configurable workflows — all configurable via a single YAML file.
@@ -205,3 +209,7 @@ Continue's unique advantages:
 ---
 
 *Licensed under CC BY 4.0 — ArdurAI / AI Code Editor Almanac*
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

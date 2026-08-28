@@ -94,6 +94,12 @@ Claude Code is a terminal-native AI agent that runs in your development environm
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-08-28
+
+- **Latest release:** `v2.1.250` (2026-08-28): Bug fixes and reliability improvements.
+- **Adoption signal:** GitHub stars moved from 138,034 to 143,213 (+5179). Track 143,213 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 11,966 to 15,256 (+3290). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
+
 ### Daily monitoring update — 2026-07-17
 
 - **Latest release:** `v2.1.212` (2026-07-17): `/fork` now copies the conversation into a new background session while the old in-session subagent path becomes `/subtask`; adds `claude auto-mode reset` to restore default auto-mode configuration with confirmation.

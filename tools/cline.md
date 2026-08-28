@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-Open-source VS Code extension with 5M+ installs, 64K+ GitHub stars; BYOK autonomous coding agent with native subagents, browser automation, and MCP support.
+Open-source VS Code extension with 5M+ installs, 67K+ GitHub stars; BYOK autonomous coding agent with native subagents, browser automation, and MCP support.
 
 ## Architecture
 
@@ -91,11 +91,17 @@ Cline is a VS Code extension that provides autonomous AI coding capabilities wit
 - **License:** Apache-2.0
 - **Region:** Global
 - **Tier:** A
-- **Notes:** 5M+ installs; 64K+ stars; native subagents; BYOK; browser automation
+- **Notes:** 5M+ installs; 67K+ stars; native subagents; BYOK; browser automation
 
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-08-28
+
+- **Latest release:** `desktop-v0.0.20` (2026-08-28): Cline Desktop now ships on Windows: releases include a code-signed x64 installer, and installed apps auto-update on the same feed macOS does; Windows shell fixes: background processes (the sidecar, git) no longer pop visible console windows; updates now download in the background and install when you restart the app; the MCP settings path falls back to….
+- **Adoption signal:** GitHub stars moved from 64,730 to 67,025 (+2295). Track 67,025 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 1,257 to 1,120 (-137). This is a material backlog reduction; it is a positive triage/maintenance signal, but verify whether it came from closures, migrations, or issue pruning.
 
 ### Daily monitoring update — 2026-07-17
 

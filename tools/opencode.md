@@ -13,7 +13,7 @@
 
 ## One-line summary
 
-186.7K+ GitHub stars; a terminal-based AI coding agent with TUI, 75+ LLM provider support, and Go-based architecture — one of the fastest-growing developer tools of 2025–2026.
+202K+ GitHub stars; a terminal-based AI coding agent with TUI, 75+ LLM provider support, and Go-based architecture — one of the fastest-growing developer tools of 2025–2026.
 
 ## Architecture
 
@@ -30,7 +30,7 @@ OpenCode is a terminal-native AI coding agent with a TUI (text user interface). 
 
 ## Key features
 
-- 186.7K+ GitHub stars — one of the most starred developer tools ever
+- 202K+ GitHub stars — one of the most starred developer tools ever
 - 75+ LLM provider support (BYOK)
 - Rich TUI with file browser, chat, and diff viewer
 - Go-native (fast, low resource usage, cross-platform)
@@ -89,11 +89,17 @@ OpenCode is a terminal-native AI coding agent with a TUI (text user interface). 
 - **License:** MIT
 - **Region:** Global
 - **Tier:** A
-- **Notes:** 186.7K+ stars; 75+ LLM providers; Go-based
+- **Notes:** 202K+ stars; 75+ LLM providers; Go-based
 
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-08-28
+
+- **Latest release:** `v1.18.23` (2026-08-25): Bugfixes; Fixed Cloudflare AI Gateway routing for third-party providers so non-Workers models work through the gateway's REST API. (@superhighfives); Fixed Anthropic models through Cloudflare AI Gateway by converting dotted model IDs like claude-haiku-4.5 to the dashed slug Anthropic expects. (@superhighfives).
+- **Adoption signal:** GitHub stars moved from 186,699 to 201,992 (+15293). Track 201,992 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 4,750 to 5,635 (+885). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
 
 ### Daily monitoring update — 2026-07-17
 
